@@ -1,0 +1,182 @@
+/* Style dark layout*/
+
+.dark{
+
+    margin: auto;
+    padding: 0;
+    background-color:#18191A;
+    color: white;
+}
+
+.h1-dark, .p-dark{
+    color: #E4E6EB;
+    font-family: "Open Sans";
+    
+}
+
+.list-group-item-dark{
+    background-color: #242526;
+    color: #E4E6EB;
+    cursor: pointer;
+    padding: 16px;
+
+}
+
+.list-group-item-dark:hover{
+    background-color: #3A3B3C;
+
+}
+
+.dropdown-menu{
+    background-color: #343A40;
+}
+.dropdown-item:hover{
+    background-color: #414950;
+    color: #F1F1F1;
+}
+.dropdown-item{
+    color: #F1F1F1;
+}*/
+
+
+
+/* Style Light layout*/
+.light{
+    margin: auto;
+    padding: 0;
+    background-color: #F1F1F1;
+    color:#000000;
+}
+
+.h1-light, .p-light{
+    font-family: "Open Sans";
+    color: #000000;
+    
+    
+}
+
+.navcolor{
+    /* backgroundColor é trocado no Js*/
+    background-color: #F1F1F1;
+
+    
+}
+.bg-light{
+    background-color: #F1F1F1;
+    color:#000000;
+
+
+}
+
+.list-group-item-light{
+    cursor: pointer;
+    padding: 16px;
+}
+
+.list-group-item-light:hover{
+    background-color: #CCCCCC;
+
+}
+/*.dropdown-item-light:hover{
+    background-color: #CCCCCC;
+    color: #F1F1F1;
+}*/
+
+
+.btn-light{
+    border-color: #000000;
+}
+
+/* Style Geral*/
+
+.navbar{
+    border-radius: 8px;
+    
+}
+
+.botao{
+    /* Botão é trocado no JS*/
+    background-image: url("img/ligado.png");
+    
+}
+#switch{
+    width: 60px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+#maincontainer{
+
+    max-width: 1400px;
+
+}
+
+.container{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-align: center;
+    margin: auto;
+    max-width: 100%;
+
+}
+.container-fluid{
+    padding: 32px;
+   
+}
+
+.card{
+    /* backgroundColor é trocado no JS*/
+    background-color: #242526;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+    
+}
+
+.img{
+    border-radius: 8px;
+
+}
+
+.mr-3{
+
+    margin-right: $spacer !important;
+}
+
+
+a:link{
+    color: #E4E6EB;
+    text-decoration: none;
+
+}
+.botao-stream{
+    float: right;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar-text{
+    margin-right: 8px;
+}
+
+#IEimagem{
+    max-width: 100%;
+}
+
+#rodape{
+    background-color: #242526;
+    padding: 16px;
+}
+
+.coluna{
+    width: 70%;   
+    margin: 0 auto;
+    
+}
+
+

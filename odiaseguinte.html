@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Template com bootstrap</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="css/myStyle.css">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/myscript2.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body id="body" class="dark" onload="posts()">
+
+    <div class="container" style="max-width: 1400px">
+<!-- Cabeçalho -->
+        <header class="container">
+            <h1 id="h1" class="h1-dark">CINEAMADOR</h1>
+            <p id="p" class="p-dark">Bem Vindo ao Site</p>
+        </header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg sticky-top bg-dark navbar-dark" id="navcolor">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              
+            
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Categoria
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Drama</a>
+                          <a class="dropdown-item" href="#">Documentários</a>
+                      </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                  </li>
+                </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <span class="navbar-text"> Modo Escuro  </span>
+                <img id="switch" onclick="ligadesliga()" src="img/ligado.png">
+              </form>
+        </div>
+        </nav>
+       
+
+        <!-- Grid -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="coluna">           
+                    <article>
+                        <header>
+                        <h1 class="text-justify"> Mauris neque quam, fermentum ut nisl vitae,
+                        convallis maximus nisl.</h1>
+                        <p class="text-justify"> Mauris neque quam, fermentum ut nisl vitae,
+                            convallis maximus nisl. Sed mattis nunc id lorem euismod placerat.
+                            Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed
+                            ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum.
+                            Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam
+                            non fringilla. 
+                            
+                        </p>
+                            <p>Publicado: <time pubdate="pubdate">2020-07-10</time></p>
+                        </header>
+                            <hr> 
+                            <p class="text-justify">Mauris neque quam, fermentum ut nisl vitae,
+                                convallis maximus nisl. Sed mattis nunc id lorem euismod placerat.
+                                Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed
+                                ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum.
+                                Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam
+                                non fringilla. </p>
+                                <br>
+                               <p class="text-justify">Mauris neque quam, fermentum ut nisl vitae,
+                            convallis maximus nisl. Sed mattis nunc id lorem euismod placerat.
+                            Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed
+                            ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum.
+                            Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam
+                            non fringilla. Mauris neque quam, fermentum ut nisl vitae,
+                            convallis maximus nisl. Sed mattis nunc id lorem euismod placerat.
+                            Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed
+                            ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum.
+                            Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam
+                            non fringilla. </p>
+                            <br/>
+                            <p class="text-justify"> Mauris neque quam, fermentum ut nisl vitae,
+                            convallis maximus nisl. Sed mattis nunc id lorem euismod placerat.
+                            Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed
+                            ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum.
+                            Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam
+                            non fringilla.
+                             </p>
+                    </article>
+                </div>
+            </div>
+            
+                
+             
+                   
+
+               
+
+            
+        </div>
+
+        
+
+        
+
+    </div>
+    <!-- Fim Grid -->
+    <footer class="container" id="rodape">
+        <p> Powered by Hernandes</p>
+
+    </footer>
+</body>
+
+</html>
